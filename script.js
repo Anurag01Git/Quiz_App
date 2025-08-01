@@ -23,6 +23,41 @@ const questions = [
     question: "Which symbol is used for comments in JavaScript?",
     options: ["//", "<!-- -->", "#", "/* */"],
     answer: 0
+  },
+  {
+    question: "Which tag is used to include JavaScript in HTML?",
+    options: ["<js>", "<script>", "<javascript>", "<code>"],
+    answer: 1
+  },
+  {
+    question: "What is the correct way to create a React component?",
+    options: [
+      "function MyComponent() {}",
+      "class MyComponent extends React.Component {}",
+      "const MyComponent = () => {}",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which directive is used for looping in Angular templates?",
+    options: ["*ngFor", "*ngLoop", "*for", "*loop"],
+    answer: 0
+  },
+  {
+    question: "Which CSS property is used to change text color?",
+    options: ["background-color", "font-color", "color", "text-color"],
+    answer: 2
+  },
+  {
+    question: "What is the output of `typeof null` in JavaScript?",
+    options: ["'object'", "'null'", "'undefined'", "'boolean'"],
+    answer: 0
+  },
+  {
+    question: "Which of these is a valid React hook?",
+    options: ["useFetch", "useLoop", "useState", "useModel"],
+    answer: 2
   }
 ];
 
